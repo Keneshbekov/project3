@@ -1,0 +1,154 @@
+.navbar{
+	background-image: url(../images/header-bg.png);
+}
+.page{
+	background-image: url(../images/navbar-bg.jpg);
+	text-align: center;
+}
+
+.page h1{
+	margin-top: 0;
+	color: white;
+	padding-top: 183px;
+	font-size: 48px;
+	font-family: 'Myriad Pro', sans-serif;
+}
+.page h4{
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 90px;
+	font-size: 18px;
+	font-family: 'Agency FB',sans-serif;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: inherit;
+	color: white;
+}
+.navbar-right a{
+	color: #cecece;
+}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 42px;
+	color: white;
+}
+
+.navbar-brand:hover{
+	color: white;
+}
+
+.item img{
+	width: 100%;
+}
+.row1{
+	margin-top: 45px;
+}
+.carousel{
+	margin-top: 45px;
+}
+.text-danger{
+	font-family: 'MyriadPro';
+	font-size: 18px;
+}
+.text-danger:hover{
+	color: #cc0000;
+}
+.under-carousel{
+	text-align: center;
+}
+.btn-default{
+	font-size: 11px;
+}
+.text-under-carousel{
+	font-family: "HelveticaNeue";
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.comments{
+	color: #adadad;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+
+
+
+/*FOOTER 1*/
+.footer1{
+	background-image: url(../images/header-bg.png);
+}
+
+.footer1 .footer {
+    /*background-color: #2E3436;*/
+    background-image: url(../images/footer-bg.png);
+    padding: 35px 0;
+    margin-top: 5em;
+}
+
+.footer1 .footer .footer-desc p {
+    color: #DDD;
+	margin: 15px 0 8px;
+	font-family: "HelveticaNeueCyr"
+}
+
+.footer1 .footer .social {
+    margin: 0 auto;
+    display: table;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.footer1 .footer .social li {
+    float: left;
+}
+
+.footer1 .footer .social li a {
+	display: block;
+    font-size: 1em;
+    color: #DDD;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 2px;
+    margin: 15px 4px
+    
+}
+
+.footer1 .footer .social li a:hover {
+    color: orange;
+}
+
+.footer1 .footer .input-group {
+    margin: 15px 0;
+}
+
+.footer-brand, .footer-brand:hover{
+	color: white;
+	font-size: 48px;
+	text-decoration: none;
+	font-family: "HelveticaNeueCyr"
+}
+
+.footer1 .footer-bottom {
+    background-image: url(../images/header-bg.png);
+    /*background-color: #222728;*/	
+    padding: 15px 0;
+    color: #DDD;
+    font-size: 13px;
+}
+
+.pull-left a{
+	color: #636b8c;
+}
+
+
+@media (max-width: 550px) {
+	.footer1 .footer-bottom .pull-left,
+	.footer1 .footer-bottom .pull-right {
+		float: none !important;
+		width: 100%;
+		padding: 10px;
+		text-align: center;
+	}
+}
